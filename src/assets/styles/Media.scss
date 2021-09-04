@@ -116,3 +116,76 @@
         border-color: transparent #68c3a3 transparent transparent;
     }
 }
+
+
+/* SKILLS */
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+    .container,
+    h2 {
+        font-size: 30px;
+    }
+    .container,
+    h3 {
+        font-size: 20px;
+    }
+    #skills .container span {
+        font-size: 14px;
+    }
+    .skill-progress label {
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    .skill-progress {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .progress {
+        width: 50%;
+        float: right;
+        margin-left: -30px;
+    }
+    .icon {
+        width: 50%;
+        float: left;
+        margin-left: 10px;
+    }
+    #progress-html {
+        width: 150px;
+    }
+    #progress-css {
+        width: 150px;
+    }
+    #progress-node {
+        width: 150px;
+    }
+    #progress-js {
+        width: 150px;
+    }
+    #progress-jq {
+        width: 150px;
+    }
+    #progress-mysql {
+        width: 150px;
+    }
+    #progress-mongo {
+        width: 150px;
+    }
+    #progress-angular {
+        width: 150px;
+    }
+    #progress-react {
+        width: 150px;
+    }
+    #progress-python {
+        width: 150px;
+    }
+    #progress-django {
+        width: 150px;
+    }
+}

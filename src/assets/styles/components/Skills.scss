@@ -1,0 +1,316 @@
+/* SKILLS */
+
+#skills {
+    width: 100%;
+    background-color: #1a1e23;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    width: 30%;
+}
+
+.container h2,
+h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container,
+h2 {
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+.container,
+h3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+#skills .container span {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.html,
+i {
+    color: #ee371b;
+}
+
+.css,
+i {
+    color: #19a9f1;
+}
+
+.node,
+i {
+    color: #45883e;
+}
+
+.mysql,
+i {
+    color: #00758f;
+}
+
+.mongo,
+i {
+    color: #599636;
+}
+
+.angular,
+i {
+    color: #dc2e35;
+}
+
+.react,
+i {
+    color: #50d7fb;
+}
+
+.js,
+.jq,
+i {
+    color: #f8df1d;
+}
+
+.python img {
+    width: 28px;
+    height: 28px;
+}
+
+.django img {
+    width: 57px;
+    height: 27px;
+}
+
+#progress-html {
+    background: #333;
+    border-radius: 13px;
+    height: 10px;
+    width: 250px;
+    padding: 3px;
+}
+
+#progress-html:after {
+    content: '';
+    display: block;
+    background: #68c3a3;
+    width: 70%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress-css {
+    background: #333;
+    border-radius: 13px;
+    height: 10px;
+    width: 250px;
+    padding: 3px;
+}
+
+#progress-css:after {
+    content: '';
+    display: block;
+    background: #68c3a3;
+    width: 60%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress-node {
+    background: #333;
+    border-radius: 13px;
+    height: 10px;
+    width: 250px;
+    padding: 3px;
+}
+
+#progress-node:after {
+    content: '';
+    display: block;
+    background: #68c3a3;
+    width: 65%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress-js {
+    background: #333;
+    border-radius: 13px;
+    height: 10px;
+    width: 250px;
+    padding: 3px;
+}
+
+#progress-js:after {
+    content: '';
+    display: block;
+    background: #68c3a3;
+    width: 70%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress-jq {
+    background: #333;
+    border-radius: 13px;
+    height: 10px;
+    width: 250px;
+    padding: 3px;
+}
+
+#progress-jq:after {
+    content: '';
+    display: block;
+    background: #68c3a3;
+    width: 55%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress-mysql {
+    background: #333;
+    border-radius: 13px;
+    height: 10px;
+    width: 250px;
+    padding: 3px;
+}
+
+#progress-mysql:after {
+    content: '';
+    display: block;
+    background: #68c3a3;
+    width: 62%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress-mongo {
+    background: #333;
+    border-radius: 13px;
+    height: 10px;
+    width: 250px;
+    padding: 3px;
+}
+
+#progress-mongo:after {
+    content: '';
+    display: block;
+    background: #68c3a3;
+    width: 55%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress-angular {
+    background: #333;
+    border-radius: 13px;
+    height: 10px;
+    width: 250px;
+    padding: 3px;
+}
+
+#progress-angular:after {
+    content: '';
+    display: block;
+    background: #68c3a3;
+    width: 60%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress-react {
+    background: #333;
+    border-radius: 13px;
+    height: 10px;
+    width: 250px;
+    padding: 3px;
+}
+
+#progress-react:after {
+    content: '';
+    display: block;
+    background: #68c3a3;
+    width: 57%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress-python {
+    background: #333;
+    border-radius: 13px;
+    height: 10px;
+    width: 250px;
+    padding: 3px;
+}
+
+#progress-python:after {
+    content: '';
+    display: block;
+    background: #68c3a3;
+    width: 60%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progress-django {
+    background: #333;
+    border-radius: 13px;
+    height: 10px;
+    width: 250px;
+    padding: 3px;
+}
+
+#progress-django:after {
+    content: '';
+    display: block;
+    background: #68c3a3;
+    width: 55%;
+    height: 100%;
+    border-radius: 9px;
+    /* animation: load 3s normal forwards; */
+}
+
+
+/* @keyframes load {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 55%;
+    }
+} */
+
+.skill-progress label {
+    float: right;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skill-progress {
+    text-align: left;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.progress {
+    width: 40%;
+    float: right;
+}
+
+.icon {
+    width: 60%;
+    float: left;
+}
+
+.skill-progress:after {
+    display: table;
+    clear: both;
+}

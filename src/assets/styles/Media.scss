@@ -1,0 +1,118 @@
+/*NAVBAR*/
+
+@media all and (min-width: 700px) {
+    .menu {
+        justify-content: center;
+    }
+    .logo {
+        flex: 1;
+    }
+    .toggle {
+        flex: 1;
+        text-align: right;
+        order: 2;
+    }
+}
+
+@media all and (min-width: 960px) {
+    .menu {
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        background: none;
+    }
+    .logo {
+        order: 0;
+    }
+    .item {
+        order: 1;
+        position: relative;
+        display: block;
+        width: auto;
+    }
+    .toggle {
+        display: none;
+    }
+}
+
+
+/* HOME */
+
+@media only screen and (max-width: 600px) {
+    #home .intro h1 {
+        font-size: 30PX;
+    }
+    #home .intro h2 {
+        font-size: 24PX;
+    }
+}
+
+
+/* ABOUT */
+
+@media only screen and (max-width: 600px) {
+    #about .container {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #about h2 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .biography {
+        margin: 20px;
+        padding: 20px;
+    }
+    .biography ul {
+        list-style: none;
+        text-align: left;
+        display: inline-block;
+    }
+    .biography strong {
+        display: none;
+    }
+    .biography li {
+        border-bottom: 2px solid #eeeeee;
+        padding: 32px;
+        margin-left: -50px;
+    }
+    .personal-data {
+        float: left;
+        padding: 5px;
+    }
+    .short-info p {
+        margin-top: -100px;
+        font-size: 16px;
+    }
+}
+
+
+/* EDUCATION */
+
+@media screen and (max-width: 900px) {
+    #timeline ul li div {
+        width: 250px;
+    }
+    #timeline ul li:nth-child(even) div {
+        left: -289px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #timeline h2 {
+        font-size: 40px;
+    }
+    #timeline ul li {
+        margin-left: 20px;
+    }
+    #timeline ul li div {
+        width: calc(100vw - 91px);
+    }
+    #timeline ul li:nth-child(even) div {
+        left: 45px;
+    }
+    #timeline ul li:nth-child(even) div::before {
+        left: -15px;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent #68c3a3 transparent transparent;
+    }
+}

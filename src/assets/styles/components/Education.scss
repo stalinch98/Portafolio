@@ -1,0 +1,120 @@
+#timeline h2 {
+    color: #2c3e50;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#timeline img {
+    display: block;
+    margin: auto;
+}
+
+#timeline ul {
+    background: white;
+    padding: 50px 0;
+}
+
+#timeline ul li {
+    list-style-type: none;
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #eeeeee;
+}
+
+#timeline ul li::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: inherit;
+    z-index: 1;
+}
+
+#timeline ul li div {
+    border-color: #68c3a3;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+}
+
+#timeline ul li div::before {
+    content: "";
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+#timeline .education h2 {
+    color: #2c3e50;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#timeline .education time {
+    color: #2c3e50;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#timeline .education p {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.fa-graduation-cap,
+.fa-user-graduate {
+    margin-bottom: -50px;
+    color: #3e763f;
+}
+
+.education {
+    transition: background-color 0.4s ease-in-out;
+}
+
+.education:hover {
+    background-color: #68c3a3;
+}
+
+#timeline ul li:nth-child(odd) div {
+    left: 45px;
+}
+
+#timeline ul li:nth-child(odd) div::before {
+    left: -16px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #68c3a3 transparent transparent;
+}
+
+#timeline ul li:nth-child(even) div {
+    left: -439px;
+}
+
+#timeline ul li:nth-child(even) div::before {
+    right: -16px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent #68c3a3;
+}
+
+time {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}

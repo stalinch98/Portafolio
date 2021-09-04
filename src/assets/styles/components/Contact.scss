@@ -1,0 +1,110 @@
+#contact {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#contact .container {
+    width: 70%;
+}
+
+#contact .container h2 {
+    color: #2c3e50;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact .container h3 {
+    color: #2c3e50;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#left {
+    margin-top: 30px;
+}
+
+.contact-info {
+    margin-top: 80px;
+    text-align: left;
+    width: 100%;
+}
+
+.contact-forms {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+iframe {
+    width: 600px;
+    height: 450px;
+    border: 0;
+}
+
+.contact-info,
+i {
+    color: #282828;
+}
+
+.contact-info #left,
+.email {
+    width: 48%;
+    float: right;
+}
+
+.contact-info #right,
+.cell {
+    width: 48%;
+    float: left;
+}
+
+.contact-forms strong,
+span,
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.contact-forms a {
+    color: #68c3a3;
+    text-decoration: none;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: #f7f7f7;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 15%;
+    background-color: #68c3a3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}

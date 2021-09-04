@@ -14,57 +14,57 @@ const Skills = () => (
 
             <div className="skill-progress">
                 <div className="html icon"> <i className="fab fa-html5 fa-lg"></i> <span>HTML5</span></div>
-                <label for="">70%</label>
+                <label htmlFor="">70%</label>
                 <div id="progress-html" className="progress"></div>
             </div>
             <div className="skill-progress">
                 <div className="css icon"> <i className="fab fa-css3-alt fa-lg"></i> <span>CSS3</span> </div>
-                <label for="">60%</label>
+                <label htmlFor="">60%</label>
                 <div id="progress-css" className="progress"></div>
             </div>
             <div className="skill-progress">
                 <div className="node icon"> <i className="fab fa-node-js fa-lg"></i> <span>Node.Js</span> </div>
-                <label for="">65%</label>
+                <label htmlFor="">65%</label>
                 <div id="progress-node" className="progress"></div>
             </div>
             <div className="skill-progress">
                 <div className="js icon"> <i className="fab fa-js fa-lg"></i> <span>JavaScript</span> </div>
-                <label for="">70%</label>
+                <label htmlFor="">70%</label>
                 <div id="progress-js" className="progress"></div>
             </div>
             <div className="skill-progress">
                 <div className="jq icon"> <i className="fab fa-js fa-lg"></i> <span>JQuery</span> </div>
-                <label for="">55%</label>
+                <label htmlFor="">55%</label>
                 <div id="progress-jq" className="progress"></div>
             </div>
             <div className="skill-progress">
                 <div className="mysql icon"> <i className="fas fa-database fa-lg"></i> <span>MySQL</span> </div>
-                <label for="">62%</label>
+                <label htmlFor="">62%</label>
                 <div id="progress-mysql" className="progress"></div>
             </div>
             <div className="skill-progress">
                 <div className="mongo icon"> <i className="fab fa-mdb fa-lg"></i> <span>MongoDB</span> </div>
-                <label for="">55%</label>
+                <label htmlFor="">55%</label>
                 <div id="progress-mongo" className="progress"></div>
             </div>
             <div className="skill-progress">
                 <div className="angular icon"> <i className="fab fa-angular fa-lg"></i> <span>Angular</span> </div>
-                <label for="">60%</label>
+                <label htmlFor="">60%</label>
                 <div id="progress-angular" className="progress"></div>
             </div>
             <div className="skill-progress">
                 <div className="react icon"> <i className="fab fa-react fa-lg"></i> <span>React</span> </div>
-                <label for="">57%</label>
+                <label htmlFor="">57%</label>
                 <div id="progress-react" className="progress"></div>
             </div>
             <div className="skill-progress">
                 <div className="python icon"> <img src={python} alt=""/> <span>Python</span> </div>
-                <label for="">60%</label>
+                <label htmlFor="">60%</label>
                 <div id="progress-python" className="progress"></div>
             </div>
             <div className="skill-progress">
                 <div className="django icon"> <img src={django} alt=""/> <span>Django</span> </div>
-                <label for="">55%</label>
+                <label htmlFor="">55%</label>
                 <div id="progress-django" className="progress"></div>
             </div>
         </div>
